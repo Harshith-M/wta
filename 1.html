@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>simple calculator</title>
+<script type="text/javascript">
+function call(click_id)
+{
+var v1=parseInt(document.getElementById("op1").value);
+var v2=parseInt(document.getElementById("op2").value);
+if(isNaN(v1)||isNaN(v2))
+alert("invalid input");
+else if(click_id=="add")
+document.getElementById("result").value=v1+v2;
+else if(click_id=="sub")
+document.getElementById("result").value=v1-v2;
+else if(click_id=="mul")
+document.getElementById("result").value=v1*v2;
+else if(click_id=="div")
+document.getElementById("result").value=v1/v2;
+}
+</script>
+</head>
+<body >
+<h1 align="center">SIMPLE CALCULATOR</h1>
+<hr>
+<table style="background-color:red;" align="center">
+<tr><td>
+<form>
+<div width=75%  align="center">
+<input type="text" id="op1">
+<input type="text" id="op2">
+<input type="text" id="result">
+</div>
+<div width=75% align="center">
+<input type="button" value="+" id="add" onclick="call(this.id)">
+<input type="button" value="-" id="sub" onclick="call(this.id)">
+<input type="button" value="*" id="mul" onclick="call(this.id)">
+<input type="button" value="/" id="div" onclick="call(this.id)">
+<input type="reset" value="clear">
+</div>
+</form>
+</tr></td>
+</table>
+</body>
+</html>
+

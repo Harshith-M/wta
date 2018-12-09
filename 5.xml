@@ -1,0 +1,31 @@
+<?xml-stylesheet type="text/css" href="stud.css"?>
+
+<student_info>
+
+<h2>Student information</h2> 
+
+
+<label><h1>Student 1</h1></label>
+<ad><label>USN:<USN>1CG15CS060</USN></label></ad>
+<ad><label>NAME:<NAME>NAMRATHA</NAME></label></ad>
+<ad><label>COLLEGE:<COL>CIT-GUBBI</COL></label></ad>
+<ad><label>BRANCH:<BRn>CSE</BRn></label></ad>
+<ad><label>YEAR OF JOINING:<YO>2015-16</YO></label></ad>
+<ad><label>EMAIL-ID:<MAIL>nam@gmail.com</MAIL></label></ad>
+
+<label><h1>Student 2</h1></label>
+<ad><label>USN:<USN>1CG15CS043</USN></label></ad>
+<ad><label>NAME:<NAME>LIKHITHA C</NAME></label></ad>
+<ad><label>COLLEGE:<COL>CIT-GUBBI</COL></label></ad>
+<ad><label>BRANCH:<BRn>CSE</BRn></label></ad>
+<ad><label>YEAR OF JOINING:<YO>2015-16</YO></label></ad>
+<ad><label>EMAIL-ID:<MAIL>spider@gmail.com</MAIL></label></ad>
+
+<label><h1>Student 3</h1></label>
+<ad><label>USN:<USN>1CG15CS063</USN></label></ad>
+<ad><label>NAME:<NAME>NAYANA MS</NAME></label></ad>
+<ad><label>COLLEGE:<COL>CIT-GUBBI</COL></label></ad>
+<ad><label>BRANCH:<BRn>CSE</BRn></label></ad>
+<ad><label>YEAR OF JOINING:<YO>2015-16</YO></label></ad>
+<ad><label>EMAIL-ID:<MAIL>naina@gmail.com</MAIL></label></ad>
+</student_info>

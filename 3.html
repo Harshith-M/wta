@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>font increase and decrease</title>
+<body>
+<p id="cit"></p>
+<script>
+var int1=setInterval(fontgrow,100); 
+var input=document.getElementById("cit");
+var size=5;
+function fontgrow()
+{
+input.innerHTML="TEXT_GROWING";
+input.setAttribute("style","font-size:"+size+++"pt; color:red;");
+if(size==50)
+{
+   clearInterval(int1);
+   var int2=setInterval(fontshrink,100); 
+}
+}
+function fontshrink()
+{
+input.innerHTML="TEXT_SHRINKING";
+input.setAttribute("style","font-size:"+size--+"pt; color:blue;");
+if(size==5)
+{
+   clearInterval(int2); 
+}
+}
+</script>
+</body>
+</head>
+</html>

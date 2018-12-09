@@ -1,0 +1,35 @@
+<html>
+<head>
+ <title>Number or string </title>
+</head>
+<body>
+  <script type ="text/javascript">
+  var input=prompt("enter the input");
+  if (isNaN(input))
+   {
+    for(var i=0;i<=input.length;i++)
+	 {
+	  if(input.charAt(i)=="a"||input.charAt(i)=="e"||input.charAt(i)=="i"||input.charAt(i)=="o"||input.charAt(i)=="u"||input.charAt(i)=="A"||
+		 input.charAt(i)=="E"||input.charAt(i)=="I"||input.charAt(i)=="O"||input.charAt(i)=="U")
+	break;
+	 }
+	 if(i<input.length)
+		 alert("the position in the string of left most vowel is"+(i+1));
+	 else
+		 alert("vowels not found");
+   }
+   else
+   {
+	   var rev=0,rem,n;
+	   n=parseInt(input);
+	   while(n!=0)
+	   {
+		   rem=n%10;
+		   n=parseInt(n/10);
+		   rev=rev*10+rem;
+	   }
+	   alert("the string is "+input+"the rev string:"+rev);
+   }
+   </script>
+   </body>
+   </html>
